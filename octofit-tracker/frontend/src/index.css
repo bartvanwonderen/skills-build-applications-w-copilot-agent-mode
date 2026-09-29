@@ -66,6 +66,49 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  font-family: 'Avenir Next', 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #1e2924;
+  background: #f4f7f5;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: #f4f7f5;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  text-align: left;
+  border: 0;
+}
+
+h1,
+h2 {
+  letter-spacing: 0;
+}
+
 h1,
 h2 {
   font-family: var(--heading);
