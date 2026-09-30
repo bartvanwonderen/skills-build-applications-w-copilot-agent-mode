@@ -1,5 +1,7 @@
 import ResourcePage from './ResourcePage.jsx'
 
+// API endpoint: https://{codespace}-8000.app.github.dev/api/teams
+
 export default function Teams() {
   return (
     <ResourcePage
